@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn and Earn</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+        }
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .header {
+            padding: 15px;
+        }
+        .header h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .header h2 span {
+            color: #ff7f50;
+        }
+        .learning-bites {
+            padding: 15px;
+        }
+        .learning-bites .card {
+            background-color: #2e2e2e;
+            border: none;
+            border-radius: 10px;
+        }
+        .learning-bites .card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .learning-bites .card-body {
+            padding: 10px;
+        }
+        .learning-bites .card-title {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .learning-bites .card-text {
+            font-size: 14px;
+            color: #aaa;
+        }
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #2e2e2e;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        .bottom-nav a {
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            flex-grow: 1;
+        }
+        .bottom-nav a.active {
+            color: #007bff;
+        }
+        .icons{
+            display: flex;
+            flex-direction: column;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="../public/image/home-1 img-1.jpg" alt="Profile Picture">
+        <div>
+            <div>Tom White</div>
+            <div>OQD...n1R2</div>
+        </div>
+        <div class="ml-auto">
+            <span class="bi bi-bell-fill fs-5"></span>
+        </div>
+    </div>
+    <div class="header">
+        <h2>Learn and <span>earn</span></h2>
+    </div>
+    <div class="learning-bites">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5>Learning bites</h5>
+            <a href="#" class="text-light">View all</a>
+        </div>
+        <a href="home-2.html">
+            <div class="card mb-3">
+                <img src="../public/image/home-1 img-2.jpg" class="card-img-top" alt="Introduction to Seed Balls">
+                <div class="card-body">
+                    <h5 class="card-title">Introduction to Seed Balls</h5>
+                    <p class="card-text">Environmental</p>
+                    <p class="card-text"><small class="text-muted">4.7</small></p>
+                </div>
+            </div>
+        </a>
+        
+    </div>
+    <div class="bottom-nav">
+        <div class="icons">
+            <span class="bi bi-house"></span>
+           <a href="#" class="active">Home</a>
+        </div>
+        <div  class="icons">
+            <span class="bi bi-journal"></span>
+            <a href="#">Learn</a>
+        </div>
+        <div  class="icons">
+            <span class="bi bi-geo-alt-fill"></span>
+            <a href="#">Play</a>
+        </div>
+        <div  class="icons">
+            <span class="bi bi-inboxes-fill"></span>
+            <a href="#">Trade</a>
+        </div>
+        <div  class="icons">
+            <span class="bi bi-person-fill"></span>
+            <a href="#">Profile</a>
+        </div>
+        
+       
+       
+      
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

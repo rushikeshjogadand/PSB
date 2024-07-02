@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .details-container {
+            padding: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .header-img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        .content-section {
+            background-color: #2e2e2e;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 20px;
+        }
+        .content-section h5 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .content-section p {
+            font-size: 14px;
+            color: #aaa;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+            width: 100%;
+            height: 45vh;
+        }
+        .details-container p{
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="details-container">
+        <img src="../public/image/home-1 img-2.jpg" alt="Introduction to Seed Balls" class="header-img">
+        <div class="content-section">
+            <h5>Introduction to Seed Balls</h5>
+            <p>Page 1 / 5</p>
+            <p><strong>1. What is a Seed Ball?</strong></p>
+            <div>
+                <p><strong>Definition</strong></p>
+                <p>A seed ball is a small, compact mixture of soil, clay, and seeds that is designed to make planting easier and more effective.</p>
+            </div>
+            <div>
+                <p><strong>Purpose</strong></p>
+                <p>Seed balls protect seeds from being eaten by birds or insects, and from harsh environmental conditions like drought or intense sunlight. They ensure seeds are deposited with some initial nutrients and moisture, giving them a better chance of sprouting and growing.</p>
+            </div>
+            <div>
+                <p><strong>Historical Context</strong></p>
+                <p>The use of seed balls dates back to ancient agricultural practices.</p>
+            </div>
+        </div>
+        <div class="navigation-buttons">
+            <button class="btn btn-primary" onclick="prevPage()">Back</button>
+            <button class="btn btn-primary" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+    <script>
+        function prevPage() {
+          
+           location.href='home-1.html'
+        }
+
+        function nextPage() {
+           
+            alert('Next Page');
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="
